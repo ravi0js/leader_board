@@ -22,7 +22,7 @@ addbtn.addEventListener("click", () => {
 
     let dt = new Date();
     let formattedDate = formatDate(dt);
-
+    msg.innerText = "";
     let playerData = {
         firstName: fname.value,
         lastName: lname.value,
